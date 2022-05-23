@@ -14,7 +14,7 @@ Implementação de sistema de loja: CRUD de produtos e clientes com usuários, p
 5. Correção de bugs caso existam (utilizando as recomendações da IDE)
 6. Aplicação das configurações
 7. Inicialização do servidor
-
+<hr />
 ### 🔸 Segunda etapa - Construção do MVC + DAO + Service (Model, View, Controller e DAO) 🔸
 1. Em src > main > java, realizar a criação de um pacote identificador do projeto (ex: br.rarantes.si.poowi)
 2. No pacote criado, adicionar os pacotes: Model, Controller, DAO e Service
@@ -83,8 +83,7 @@ página privada (neste caso, dashboard.jsp) ou uma mensagem de erro
 > Use ``HttpSession session = request.getSession();`` para adicionar a sessão ao login do usuário. Use ``request.getSession().invalidate();`` para encerrar 
 a sessão. 
 > Assim, você bloqueará que usuários sem acesso possam acessar páginas privadas ao retornar à url privada sem login.
-
-
+<hr/>
 ### 🔸 Terceira etapa - Conexão com o banco de dados Postgresql + cadastro de usuários  🔸
 1. Agora é o momento de adicionar a conexão com o banco de dados. Novamente, vá ao mvn repository e busque pela dependência do postgresql;
 2. Agora, crie a base de dados por meio do postgresql, adicionando as tabelas referentes aos models criados anteriormente;
@@ -125,17 +124,6 @@ a sessão.
 9. Agora basta criar a página de cadastro, alterar a de login para possibilitar a navegação à de cadastro, adicionar um controller para redirecionamento 
 e cadastro de usuário (que chamará a dao).
 10. Faça os redirecionamentos e retornos de erros e o cadastro estará finalizado.
-
+<hr />
 ### 🔸 Próximas etapas - "Mais do mesmo"  🔸
 1. Siga a lógica implementada nas etapas anteriores para finalizar as funcionalidades que estão faltando na aplicação :)
-
-
-
-
-
-
-
-
-
-
-
