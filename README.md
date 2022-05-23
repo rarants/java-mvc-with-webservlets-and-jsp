@@ -84,7 +84,9 @@ página privada (neste caso, dashboard.jsp) ou uma mensagem de erro
 a sessão. 
 > Assim, você bloqueará que usuários sem acesso possam acessar páginas privadas ao retornar à url privada sem login.
 <hr/>
+
 ### 🔸 Terceira etapa - Conexão com o banco de dados Postgresql + cadastro de usuários  🔸
+
 1. Agora é o momento de adicionar a conexão com o banco de dados. Novamente, vá ao mvn repository e busque pela dependência do postgresql;
 2. Agora, crie a base de dados por meio do postgresql, adicionando as tabelas referentes aos models criados anteriormente;
 ```
@@ -125,5 +127,6 @@ a sessão.
 e cadastro de usuário (que chamará a dao).
 10. Faça os redirecionamentos e retornos de erros e o cadastro estará finalizado.
 <hr />
+
 ### 🔸 Próximas etapas - "Mais do mesmo"  🔸
 1. Siga a lógica implementada nas etapas anteriores para finalizar as funcionalidades que estão faltando na aplicação :)
