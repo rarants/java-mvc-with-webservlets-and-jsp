@@ -15,6 +15,7 @@ Implementação de sistema de loja: CRUD de produtos e clientes com usuários, p
 6. Aplicação das configurações
 7. Inicialização do servidor
 <hr />
+
 ### 🔸 Segunda etapa - Construção do MVC + DAO + Service (Model, View, Controller e DAO) 🔸
 1. Em src > main > java, realizar a criação de um pacote identificador do projeto (ex: br.rarantes.si.poowi)
 2. No pacote criado, adicionar os pacotes: Model, Controller, DAO e Service
